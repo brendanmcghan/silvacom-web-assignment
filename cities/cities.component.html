@@ -1,0 +1,12 @@
+<div class="cityDetails">
+  <app-city-detail [city]="selectedCity"></app-city-detail>
+</div>
+<div class="cityList">
+<ul class="cities">
+  <li *ngFor="let city of cities"
+    [class.selected]="city === selectedCity"
+    (click)="onSelect(city)">
+    <span class="citySelection">{{city.name}}</span>
+  </li>
+</ul>
+</div>

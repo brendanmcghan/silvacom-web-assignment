@@ -1,0 +1,42 @@
+body {
+ font: Garamond, serif;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 55px;
+  font-weight: 100;
+}
+
+.wrapper{
+  margin: 35px;
+  float: none;
+  background-image: url('../assets/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  text-align: right;
+  padding: 60px 20px 5px 20px;
+  background-color: #A6A6A6;
+  opacity: 0.9;
+  color: #FDFDFD;
+}
+.content{
+  height: 420px;
+  margin: 0;
+}
+.footer{
+  text-align: center;
+  background-color: #A6A6A6;
+  padding: 1px;
+  opacity: 0.9;
+  height: 35px;
+  color: #FDFDFD;
+  margin: 0;
+}
